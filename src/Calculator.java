@@ -9,12 +9,13 @@ public class Calculator {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("My simple Calculator");
+        System.out.println("For calculation enter x, \n then enter required operation +, -, *, /, \n then enter y \n");
 
         while (true) {
 
-            System.out.println("Please, make your choice!");
-            System.out.println("Enter 1 -> Arabic Calculator");
-            System.out.println("Enter 2 -> Roman Calculator");
+            System.out.println("Please, select calculator:");
+            System.out.println("Enter 1 -> Arabic Numeral Calculator");
+            System.out.println("Enter 2 -> Roman Numeral Calculator");
             System.out.println("Enter 0 -> exit");
 
             int choiceCalc = scanner.nextInt();
