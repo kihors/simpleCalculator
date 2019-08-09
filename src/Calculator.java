@@ -9,10 +9,11 @@ public class Calculator {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("My simple Calculator");
-        System.out.println("For calculation enter x, \n then enter required operation +, -, *, /, \n then enter y \n");
+        System.out.println("For calculate, enter the following format: \n" +
+                "Arabic Calculator 0 + 0 or Roman Calculator I + I; \n" +
+                "supported operators: +, -, *, /, % \n");
 
         while (true) {
-
             System.out.println("Please, select calculator:");
             System.out.println("Enter 1 -> Arabic Numeral Calculator");
             System.out.println("Enter 2 -> Roman Numeral Calculator");
@@ -29,11 +30,9 @@ public class Calculator {
                     break;
                 case 0:
                     System.out.println("Exit");
+                    System.exit(0);
                     break;
             }
-
-            if (choiceCalc == 0)
-                break;
         }
     }
 }

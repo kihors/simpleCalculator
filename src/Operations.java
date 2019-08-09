@@ -13,8 +13,14 @@ class Operations {
     }
 
     int div(int x, int y) {
-        if (y == 0)
-            System.out.println("Cannot divide by zero!");
-        return x / y;
+        if (y != 0) {
+            return x / y;
+        }
+        System.out.println("Cannot divide by zero!");
+        return 0;
+    }
+
+    int mod(int x, int y) {
+        return x % y;
     }
 }
