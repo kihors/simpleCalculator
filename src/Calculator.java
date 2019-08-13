@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Calculator {
 
     public static void main(String[] args) {
-
         ArabicCalc arabicCalc = new ArabicCalc();
         RomanCalc romanCalc = new RomanCalc();
         Scanner scanner = new Scanner(System.in);
@@ -11,7 +10,7 @@ public class Calculator {
         System.out.println("My simple Calculator");
         System.out.println("For calculate, enter the following format: \n" +
                 "Arabic Calculator 0 + 0 or Roman Calculator I + I; \n" +
-                "supported operators: +, -, *, /, % \n");
+                "supported operators: +, -, *, / \n");
 
         while (true) {
             System.out.println("Please, select calculator:");
