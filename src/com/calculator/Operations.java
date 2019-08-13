@@ -1,3 +1,5 @@
+package com.calculator;
+
 class Operations {
 
     int add(int x, int y) {
@@ -18,9 +20,5 @@ class Operations {
         }
         System.out.println("Cannot divide by zero!");
         return 0;
-    }
-
-    int mod(int x, int y) {
-        return x % y;
     }
 }
